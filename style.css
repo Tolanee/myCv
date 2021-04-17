@@ -1,0 +1,89 @@
+body{
+  font-family: montserrat;
+  font-weight: bolder;
+  margin: 0 auto;
+  }     
+
+#intro{
+  display: flex;
+  margin-top: 2em;
+  border-bottom: 1px solid;
+}
+.contact-img{
+  height: 120px;
+  margin-left: 150px;
+}
+p {
+  font-size: 15px;
+  font-weight: bolder;
+  line-height: 2em;
+}
+p .name{
+  color: rgb(5, 5, 20);
+  font-size: 40px;
+}
+p .descrptn{
+  color: rgb(68, 67, 67);
+  font-size: 20px;
+  font-weight: bolder
+}
+p span{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#contacts{
+  font-size: 15px;
+  line-break: 2px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  margin: 1em auto;
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  line-break: 20px;
+}
+
+.left{
+  margin-left: 150px; 
+  width: 50%;
+ 
+}
+.right{
+  margin-left: 150px;
+  width: 50%;
+  
+}
+.skills{
+  margin-right: 150px;
+}
+.skills div{
+  display: inline-block;
+  background-color: gray;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: aliceblue;
+}
+.org span{
+  color:rgb(202, 199, 199); 
+  font-style: italic;
+  font-size: 12px;
+}
+.lang span{
+  color:rgb(202, 199, 199); 
+  font-style: italic;
+  font-size: 12px;
+}
+
+.interests span{
+  display: inline-block;
+  margin: 5px;
+  padding: 3px;
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 5px;
+  font-size: 13px;
+}
